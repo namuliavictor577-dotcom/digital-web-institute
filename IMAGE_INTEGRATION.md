@@ -56,7 +56,7 @@ project-root/
 ```
 
 ## How Images Are Served
-- Images are stored in the `public/` folder
+- Images are stored in the `public/images` folder
 - Vite serves them from the root path `/` (e.g., `/home page 1.jpg`)
 - All image paths in components use these local references
 - No external CDN dependencies

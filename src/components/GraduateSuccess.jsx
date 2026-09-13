@@ -171,7 +171,7 @@ function GraduateSuccess() {
               animationDelay: `${index * 0.1}s`
             }}>
               <GalleryImage
-                src={item.image}
+                src={'${import.meta.env.BASE_URL}images/${item.image}'}
                 alt={`Graduate - ${item.label}`}
               />
               <GalleryOverlay>
