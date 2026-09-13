@@ -250,7 +250,7 @@ function Hero() {
 
         <HeroImageContainer>
           <HeroImage
-            src={'${import.meta.env.BASE_URL}images/home-page-2.jpg'}
+            src={`${import.meta.env.BASE_URL}images/home page 2.jpg`}
             alt="African student focused on laptop in modern computer lab"
           />
         </HeroImageContainer>

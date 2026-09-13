@@ -245,7 +245,7 @@ function Courses({ onCourseSelect, onViewMore }) {
               animationDelay: `${index * 0.1}s`
             }}>
               <CourseImage 
-                src={'${import.meta.env.BASE_URL}images/${course.image}'}
+                src={`${import.meta.env.BASE_URL}images${course.image}`}
                 alt={`${course.title} course`}
               />
               <CourseCardContent>

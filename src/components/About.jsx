@@ -202,7 +202,7 @@ function About() {
       <AboutContainer>
         <div>
           <img
-            src={'${import.meta.env.BASE_URL}images/complab 1.jpg'}
+            src={`${import.meta.env.BASE_URL}images/complab 1.jpg`}
             alt="Diverse African students learning together in computer laboratory"
             style={{
               width: '100%',

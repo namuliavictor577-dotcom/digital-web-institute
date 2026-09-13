@@ -152,7 +152,7 @@ function CoreValues() {
       <ValuesContainer>
         <div>
           <img
-            src={'${import.meta.env.BASE_URL}images/home-page-5.jpg'}
+            src={`${import.meta.env.BASE_URL}images/home page 5.jpg`}
             alt="Institute staff and instructors working together in professional environment"
             style={{
               width: '100%',
